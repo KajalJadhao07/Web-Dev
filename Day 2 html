@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canteen Survey</title>
+</head>
+<body>
+    <div>
+        <h2>CANTEEN SURVEY</h2>
+        <hr>
+    </div>
+    
+    <div>
+        <form action="/action"></form>
+        <div>
+            <p style="color: red;">* Indicates required question</p>
+            <label for="gmail"></label>
+            <p><b>Enter your gmail *</b></p>
+            <input type="text" name="gmail" id="gmail" placeholder="Your gmail">
+            <hr>
+        </div>
+        <div>
+            <p>Name of the Candidate *</p>
+            <label for="name"></label>
+            <input type="text" name="name" id="name" placeholder="Your name">
+            <p>Contact Number *</p>
+            <label for="cn"></label>
+            <input type="text" name="contact no." id="cn" placeholder="Your answer">
+
+            <div>
+                <p>UG Stream *</p>
+                <input type="radio" name="stream" id="comp">
+                <label for="comp">Computer</label>
+                <br>
+                <input type="radio" name="stream" id="it">
+                <label for="it">IT</label>
+                <br>
+                <input type="radio" name="stream" id="entc">
+                <label for="entc">ENTC</label>
+                <br>
+                <input type="radio" name="stream" id="mech">
+                <label for="mech">Mechanical</label>
+                <br>
+                <input type="radio" name="stream" id="elect">
+                <label for="elect">Electrical</label>
+                <br>
+                <input type="radio" name="stream" id="aids">
+                <label for="aids">AI&DS</label>
+                <br>
+                <input type="radio" name="stream" id="ar">
+                <label for="ar">A&R</label>
+                <br>
+            </div>
+            <div>
+                <p>How would you rate the overall quality of the food in the canteen? *</p>
+    
+                <input type="radio" name="quality" id="1">
+                <label for="1">1 [Min]</label>
+                <br>
+                <input type="radio" name="quality" id="2">
+                <label for="2">2</label>
+                <br>
+                <input type="radio" name="quality" id="3">
+                <label for="3">3</label>
+                <br>
+                <input type="radio" name="quality" id="4">
+                <label for="4">4</label>
+                <br>
+                <input type="radio" name="quality" id="5">
+                <label for="5">5 [max]</label>
+            </div>
+
+            <div>
+                <p>How would you rate the cleanliness and hygiene of the canteen facilities? *</p>
+                <input type="radio" name="cl" id="1">
+                <label for="1">1 [Min]</label>
+                <br>
+                <input type="radio" name="cl" id="2">
+                <label for="2">2</label>
+                <br>
+                <input type="radio" name="cl" id="3">
+                <label for="3">3</label>
+                <br>
+                <input type="radio" name="cl" id="4">
+                <label for="4">4</label>
+                <br>
+                <input type="radio" name="cl" id="5">
+                <label for="5">5 [Max]</label>
+            </div>
+
+            <div>
+                <p>Do you find the prices of food in the canteen to be reasonable?*</p>
+                <input type="radio" name="price" id="yes">
+                <label for="yes">Yes</label>
+                <br>
+                <input type="radio" name="price" id="no">
+                <label for="no">No</label>
+                <br>
+            </div>
+            <div>
+                <p> If you answered "No" to the previous question , please specify
+                    any item you find overpriced or suggest a pricing change
+                </p>
+                <textarea name="comments" id="comment" placeholder="your answer"></textarea>
+            </div>
+
+            <div>
+                <label for="comments"></label>
+                <p>Please share any additional comments , suggestions, or feedback regarding
+                    the canteen that you believe would be valuable for us to know.
+                </p>
+                <textarea name="comments" id="comment" placeholder="your answer"></textarea>
+            </div>
+            <hr>
+            <button>Submit</button>
+        
+        </div>
+        
+    
+    </div>
+    
+
+
+</body>
+</html>
