@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Canteen Survey</title>
+    <style>
+        .red{
+            color: red;
+        }
+    </style>
 </head>
 <body>
     <div>
@@ -16,20 +21,20 @@
         <div>
             <p style="color: red;">* Indicates required question</p>
             <label for="gmail"></label>
-            <p><b>Enter your gmail *</b></p>
+            <p><b>Enter your gmail <span class="red">*</span></b></p>
             <input type="text" name="gmail" id="gmail" placeholder="Your gmail">
             <hr>
         </div>
         <div>
-            <p>Name of the Candidate *</p>
+            <p>Name of the Candidate <span class="red">*</span></p>
             <label for="name"></label>
             <input type="text" name="name" id="name" placeholder="Your name">
-            <p>Contact Number *</p>
+            <p>Contact Number <span class="red">*</span></p>
             <label for="cn"></label>
             <input type="text" name="contact no." id="cn" placeholder="Your answer">
 
             <div>
-                <p>UG Stream *</p>
+                <p>UG Stream <span class="red">*</span></p>
                 <input type="radio" name="stream" id="comp">
                 <label for="comp">Computer</label>
                 <br>
@@ -53,7 +58,7 @@
                 <br>
             </div>
             <div>
-                <p>How would you rate the overall quality of the food in the canteen? *</p>
+                <p>How would you rate the overall quality of the food in the canteen? <span class="red">*</span></p>
     
                 <input type="radio" name="quality" id="1">
                 <label for="1">1 [Min]</label>
@@ -72,7 +77,7 @@
             </div>
 
             <div>
-                <p>How would you rate the cleanliness and hygiene of the canteen facilities? *</p>
+                <p>How would you rate the cleanliness and hygiene of the canteen facilities? <span class="red">*</span></p>
                 <input type="radio" name="cl" id="1">
                 <label for="1">1 [Min]</label>
                 <br>
@@ -90,7 +95,7 @@
             </div>
 
             <div>
-                <p>Do you find the prices of food in the canteen to be reasonable?*</p>
+                <p>Do you find the prices of food in the canteen to be reasonable? <span class="red">*</span></p>
                 <input type="radio" name="price" id="yes">
                 <label for="yes">Yes</label>
                 <br>
@@ -108,19 +113,13 @@
             <div>
                 <label for="comments"></label>
                 <p>Please share any additional comments , suggestions, or feedback regarding
-                    the canteen that you believe would be valuable for us to know.
+                    the canteen that you believe would be valuable for us to know.<span class="red">*</span>
                 </p>
                 <textarea name="comments" id="comment" placeholder="your answer"></textarea>
             </div>
             <hr>
             <button>Submit</button>
-        
         </div>
-        
-    
     </div>
-    
-
-
 </body>
 </html>
