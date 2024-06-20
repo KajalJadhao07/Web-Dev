@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Time</title>
+</head>
+<body>
+
+<h1>Welcome to the Quiz!</h1>
+
+<div class="quiz-question">
+    <h2>Question 1: What is the capital of France?</h2>
+    <div class="quiz-answer">
+        <input type="radio" name="q1" value="paris"> Paris<br>
+        <input type="radio" name="q1" value="london"> London<br>
+        <input type="radio" name="q1" value="berlin"> Berlin<br>
+        <input type="radio" name="q1" value="rome"> Rome<br>
+    </div>
+</div>
+
+<div class="quiz-question">
+    <h2>Question 2: Who wrote "Hamlet"?</h2>
+    <div class="quiz-answer">
+        <input type="radio" name="q2" value="shakespeare"> William Shakespeare<br>
+        <input type="radio" name="q2" value="tolstoy"> Leo Tolstoy<br>
+        <input type="radio" name="q2" value="dostoevsky"> Fyodor Dostoevsky<br>
+        <input type="radio" name="q2" value="homer"> Homer<br>
+    </div>
+</div>
+
+<div class="quiz-question">
+    <h2>Question 3: What is the chemical symbol for water?</h2>
+    <div class="quiz-answer">
+        <input type="radio" name="q3" value="h2o"> H2O<br>
+        <input type="radio" name="q3" value="co2"> CO2<br>
+        <input type="radio" name="q3" value="o2"> O2<br>
+        <input type="radio" name="q3" value="n2"> N2<br>
+    </div>
+</div>
+
+<button>Submit Answers</button>
+</body>
+</html>
