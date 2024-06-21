@@ -8,23 +8,30 @@
         .red{
             color: red;
         }
+
+        body{
+            background-color: beige;
+        }
     </style>
 </head>
 <body>
-    <div>
-        <h2>CANTEEN SURVEY</h2>
-        <hr>
-    </div>
-    
-    <div>
-        <form action="/action"></form>
+    <header>
         <div>
-            <p style="color: red;">* Indicates required question</p>
-            <label for="gmail"></label>
-            <p><b>Enter your gmail <span class="red">*</span></b></p>
-            <input type="text" name="gmail" id="gmail" placeholder="Your gmail">
-            <hr>
+            <form action="/action"></form>
+            <div class="heading">
+                <h2>CANTEEN SURVEY</h2>
+                <p style="color: red;">* Indicates required question</p>
+            </div>
+            <div>
+                <label for="gmail"></label>
+                <p><b>Enter your gmail <span class="red">*</span></b></p>
+                <input type="text" name="gmail" id="gmail" placeholder="Your gmail">
+                <hr>
+            </div>
         </div>
+    </header>
+
+    <main>
         <div>
             <p>Name of the Candidate <span class="red">*</span></p>
             <label for="name"></label>
@@ -117,9 +124,13 @@
                 </p>
                 <textarea name="comments" id="comment" placeholder="your answer"></textarea>
             </div>
-            <hr>
-            <button>Submit</button>
         </div>
-    </div>
+        <hr>
+    </main>
+    
+    <footer>
+        <button>Submit</button>
+    </footer>
+               
 </body>
 </html>
