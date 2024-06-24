@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment</title>
+    <style>
+        .container{
+            height: 400px;
+            width: 400px;
+            border: 5px solid cadetblue;
+            border-radius: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .ele{
+            height: 100px;
+            width: 100px;
+            background-color: grey;
+            border: 2px solid black;
+            font-size: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="ele"><h1>A</h1></div>
+        <div class="ele"><h1>B</h1></div>
+        <div class="ele"><h1>C</h1></div>
+        <div class="ele"><h1>D</h1></div>
+        <div class="ele"><h1>E</h1></div>
+        <div class="ele"><h1>F</h1></div>
+        <div class="ele"><h1>G</h1></div>
+        <div class="ele"><h1>H</h1></div>
+        <div class="ele"><h1>I</h1></div>
+    </div>
+</body>
+</html>
