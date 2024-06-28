@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <style>
+        h3 {
+            display: inline-block;
+        }
+        .heading {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-left: 60px;
+        }
+        h4 {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h1 {
+            font-family: cursive;
+        }
+        h5 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .date {
+            position: absolute;
+            left: 70rem;
+        }
+        h1, h4, h5 {
+            text-align: center;
+        }
+        .reward {
+            color: red;
+            text-align: center;
+        }
+        .outer {
+            margin-top: 10px;
+            height: 100px;
+            width: 100%;
+            background-color: black;
+        }
+        .missing {
+            color: white;
+            font-weight: bolder;
+            text-align: center;
+            padding-top: 5px;
+        }
+        .photo img {
+            margin-top: 220px;
+            margin-left: 50px;
+            height: 400px;
+        }
+        .full {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        .content {
+            max-width: 50%;
+        }
+        .main {
+            font-family: Arial, sans-serif;
+            margin-top: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h3 class="heading">Lady Whistledown Newsletter</h3>
+            <h3 class="date">#1 | JUNE 2024</h3>
+        </div>
+        <hr>
+        <div>
+            <h4>WELCOME TO OUR</h4>
+            <h1>Weekly Newsletter</h1>
+            <h5>we're so glad you are here!</h5>
+        </div>
+        <hr>
+    </header>
+    <main>
+        <div class="full">
+            <div class="photo">
+                <img src="men.jpg" alt="men">
+            </div>
+
+            <div class="content">
+                <h1 class="reward">&#8377; 11 Reward</h1>
+                <div class="outer">
+                    <div class="missing"><h1>Missing???</h1></div>
+                </div>
+                <p class="main">An 18-year-old boy pursuing his polytechnic studies at Cusrow Wadia College of Engineering in Pune has been reported missing.
+                    He hails from Pimpalgaon, Maharashtra. The boy was last seen on [date] in Pune, near [specific location if known], 
+                    and was wearing [description of clothing he was last seen wearing]. According to reports, an unknown individual 
+                    lured him with chocolate, leading to his suspected kidnapping.
+                </p>
+                <p class="main">The boy has distinctive features, including [height], [weight], [hair color], and [eye color], with identifying marks 
+                    such as [any identifying marks, scars, tattoos]. Despite extensive efforts, including filing a missing person’s report 
+                    with the Pune Police Department, contacting friends and family, notifying local hospitals and shelters, and distributing 
+                    flyers with his photograph, there has been no sign of him.
+                </p>
+                <p class="main">Anyone with information about his whereabouts is urged to contact the nearest police station or call [Contact Number]. 
+                    The police case number for this incident is [Case Number], and the investigating officer is [Name of the Officer] 
+                    from [Name of the Police Station]. Your assistance in spreading this report is crucial in ensuring his swift and safe 
+                    return. Any information, no matter how small, could be vital in locating him.
+                </p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+
