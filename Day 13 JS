@@ -1,0 +1,21 @@
+//Take input string and state weather the string is empty or not.
+let str = prompt("enter a string")
+if(str.length==0){
+    console.log("String is empty");
+}
+else{
+    console.log("String is not empty")
+}
+
+
+
+
+//Check wether the defined index have lower case alphabet or upper case alphabet
+let string="KajalJadhao";
+let n=3;
+if(string[n]==string[n].toLowerCase()){
+    console.log("The character is in lower case.")
+}
+else{
+    console.log("The character is in upper case.")
+}
