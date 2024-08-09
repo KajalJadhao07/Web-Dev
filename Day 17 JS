@@ -61,3 +61,20 @@ console.log("------------------");
 
 //Sort
 console.log(fruits.sort());
+
+
+//Types of Array
+
+//1.Constant array (arr are constant but not values)
+const arr = [4,7,6,9,];
+arr.push(5);
+console.log(arr);
+arr.shift();
+console.log(arr);
+
+//2.Nested Array 
+
+let data = [["Rahul" , 97],["Priya", 93],["Karan", 89]]
+console.log(data);
+console.log(data[1].length);
+console.log(data[2][0]);
